@@ -23,8 +23,8 @@ import java.util.Optional;
 public abstract class BasePagedUseCase<T extends Serializable>  {
 
     private static final String HTTPS = "https";
-    private static final String GATEWAY_HOST = "www.api.bradesco.com";
-    private static final String GATEWAY_PORT = "8443";
+    private static final String GATEWAY_HOST = "www.api.url.com";
+    private static final String GATEWAY_PORT = "8080";
 
     private PagedResourcesAssembler<T> pagedResourcesAssembler;
 
